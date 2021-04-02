@@ -7,5 +7,8 @@
     "database": "nestjs_mysql_crud_app",
     "synchronize": false,
     "logging": true,
-    "entities": ["src/**/*.entity.ts", "dist/**/*entity.ts"]
+    "charset": "utf8",
+    "entities": [
+        "dist/**/*.entity{.ts,.js}"
+    ]
 }
